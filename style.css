@@ -6,7 +6,7 @@ h1{font-size: 50px;
 }
 .green-color{color:green;}
 .deeppink-color{color:deeppink;}
-section{display: flex;margin-bottom: 100px;
+.flexible-container{display: flex;margin-bottom: 100px;
 }
 .half-width{width: 50%;
 padding-left: 2%;}
@@ -19,3 +19,22 @@ background-repeat: no-repeat;}
 .dream-big{background-image: url(images/dream-bg.png);
 background-repeat: no-repeat ;
 background-position: right;}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.experience-item{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+padding-left: 25px;
+border-radius: 10px;
+
+    box-shadow: 10px 10px 10px gray;
+}
+#full-stack-devo{border-left: 7px solid tomato;}
+#baby-devo{border-left: 7px solid blue;}
+footer p{
+    text-align: center;
+}
